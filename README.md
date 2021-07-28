@@ -12,21 +12,22 @@ the template uses mariadb/mysql by default
 
 ## project structure
 
+root  
 ㄴ app.py  
 ㄴ config/  
-&nbsp;&nbsp;&nbsp;ㄴ__init__.py  
-&nbsp;&nbsp;&nbsp;ㄴproduction.py  
-&nbsp;&nbsp;&nbsp;ㄴdevelopment.py  
-&nbsp;&nbsp;&nbsp;ㄴtest.py  
+&nbsp;&nbsp;&nbsp;&nbsp;ㄴ__init__.py  
+&nbsp;&nbsp;&nbsp;&nbsp;ㄴproduction.py  
+&nbsp;&nbsp;&nbsp;&nbsp;ㄴdevelopment.py  
+&nbsp;&nbsp;&nbsp;&nbsp;ㄴtest.py  
 ㄴ model/  
-&nbsp;&nbsp;&nbsp;ㄴ__init__.py  
-&nbsp;&nbsp;&nbsp;ㄴauth_dao.py  
+&nbsp;&nbsp;&nbsp;&nbsp;ㄴ__init__.py  
+&nbsp;&nbsp;&nbsp;&nbsp;ㄴauth_dao.py  
 ㄴ service/  
-&nbsp;&nbsp;&nbsp;ㄴ__init__.py  
-&nbsp;&nbsp;&nbsp;ㄴauth_service.py  
+&nbsp;&nbsp;&nbsp;&nbsp;ㄴ__init__.py  
+&nbsp;&nbsp;&nbsp;&nbsp;ㄴauth_service.py  
 ㄴ view/  
-&nbsp;&nbsp;&nbsp;ㄴ__init__.py  
-&nbsp;&nbsp;&nbsp;ㄴauth_view.py  
+&nbsp;&nbsp;&nbsp;&nbsp;ㄴ__init__.py  
+&nbsp;&nbsp;&nbsp;&nbsp;ㄴauth_view.py  
 
 ## development environment setting
 
@@ -38,6 +39,7 @@ $ pip install -r requriements.txt
 ```
 
 - set env variables  
+
 create .env file at project root
 
 ```
@@ -47,6 +49,7 @@ APP_CONFIG_FILE=/path/to/development.py
 ```
 
 - set configuration  
+
 modify /config/development.py for your project
 
 - run server
